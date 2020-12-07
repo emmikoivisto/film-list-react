@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import FilmBox from '../components/FilmBox';
 
 
 const FilmConsole = () => {
@@ -30,6 +31,12 @@ const FilmConsole = () => {
           }
     ]);
 
+    return (
+        <>
+        <h1>This is the film console</h1>
+        <FilmBox films={films}/>
+        </>
+    )
 };
 
 export default FilmConsole;
