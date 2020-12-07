@@ -1,7 +1,7 @@
-const Film = ({children}) => {
+const Film = ({filmItem, children}) => {
     return (
         <li>
-            {children}
+            <a href={children}>{filmItem}</a>
         </li>
     )
 };

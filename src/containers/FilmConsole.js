@@ -33,7 +33,7 @@ const FilmConsole = () => {
 
     return (
         <>
-        <h1>This is the film console</h1>
+        <h1>Recent Film Releases</h1>
         <FilmBox films={films}/>
         </>
     )
