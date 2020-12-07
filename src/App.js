@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <FilmConsole></FilmConsole>
+      <button>See more films</button>
     </>
   );
 }

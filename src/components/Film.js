@@ -1,6 +1,8 @@
 const Film = ({children}) => {
     return (
-        <li>{children}</li>
+        <li>
+            {children}
+        </li>
     )
 };
 

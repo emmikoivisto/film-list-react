@@ -4,7 +4,7 @@ const FilmBox = ({films}) => {
 
     const filmList = films.map( film => {
         return (
-            <Film filmItem={film.name} key={film.id}>{film.name} {film.url}</Film>
+            <Film filmItem={film.name} key={film.id}>{film.name}</Film>
         )
     });
 
