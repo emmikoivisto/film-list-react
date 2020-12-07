@@ -1,11 +1,12 @@
 import './App.css';
+import FilmConsole from './containers/FilmConsole';
 
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+      <FilmConsole></FilmConsole>
+    </>
   );
 }
 
