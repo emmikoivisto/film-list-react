@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import FilmBox from '../components/FilmBox';
+import './FilmConsole.css';
 
 
 const FilmConsole = () => {
@@ -32,10 +33,13 @@ const FilmConsole = () => {
     ]);
 
     return (
-        <>
-        <h1>Recent Film Releases</h1>
-        <FilmBox films={films}/>
-        </>
+        <div className='film-console'>
+            <h1>Recent Film Releases</h1>
+            <FilmBox films={films}/>
+            <button>
+                <a href="https://www.imdb.com/calendar/?region=gb"> See more films</a>
+            </button>
+        </div>
     )
 };
 

@@ -6,9 +6,7 @@ function App() {
   return (
     <>
       <FilmConsole></FilmConsole>
-      <button>
-        <a href="https://www.imdb.com/calendar/?region=gb"> See more films</a>
-      </button>
+
     </>
   );
 }
