@@ -10,7 +10,7 @@ const FilmBox = ({films}) => {
 
     return (
         <>
-        <h2>List</h2>
+        <h2>Titles</h2>
         <ul>
             {filmList}
         </ul>
